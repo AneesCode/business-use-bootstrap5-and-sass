@@ -1,0 +1,83 @@
+// break Points Maximum
+$desktop-lg: 1600px;
+$desktop: 1440px;
+$desktop-sm: 1366px;
+$tablet-lg: 1199px;
+$tablet: 991px;
+$mobile: 767px;
+$mobile-xs: 374px;
+
+
+// Break Points Minimum
+$min-desktop: 1200px;
+$min-tablet-lg: 992px;
+$min-tablet: 768px;
+$min-mobile: 320px;
+
+
+@mixin desktop-lg {
+    @media (max-width: #{$desktop-lg}) {
+        @content;
+    }
+}
+
+@mixin desktop {
+    @media (max-width: #{$desktop}) {
+        @content;
+    }
+}
+
+@mixin desktop-sm {
+    @media (max-width: #{$desktop-sm}) {
+        @content;
+    }
+}
+
+@mixin tablet-lg {
+    @media (max-width: #{$tablet-lg}) {
+        @content;
+    }
+}
+
+@mixin tablet {
+    @media (max-width: #{$tablet}) {
+        @content;
+    }
+}
+
+@mixin mobile {
+    @media (max-width: #{$mobile}) {
+        @content;
+    }
+}
+
+@mixin mobile-xs {
+    @media (max-width: #{$mobile-xs}) {
+        @content;
+    }
+}
+
+
+@mixin min-desktop {
+    @media (min-width: #{$min-desktop}) {
+        @content;
+    }
+}
+
+@mixin min-tablet-lg {
+    @media (min-width: #{$min-tablet-lg}) {
+        @content;
+    }
+}
+
+@mixin min-tablet {
+    @media (min-width: #{$min-tablet}) {
+        @content;
+    }
+}
+
+@mixin min-mobile {
+    @media (min-width: #{$min-mobile}) {
+        @content;
+    }
+}

@@ -1,0 +1,15 @@
+.video{
+    background-color: $light-3;
+    padding: 100px 0;
+    .title-block{
+    @include title-block;
+}
+.video-section{
+    text-align: center;
+    img{
+        border-radius: 8px;
+
+    }
+    
+}
+}

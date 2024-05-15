@@ -1,0 +1,91 @@
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+article,
+aside,
+dialog,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section {
+    display: block;
+}
+
+blockquote:after,
+blockquote:before,
+q:after,
+q:before {
+    content: '';
+}
+
+blockquote,
+q {
+    quotes: """";
+}
+
+*:focus {
+    outline: 0;
+}
+
+a {
+    text-decoration: none !important;
+    color: inherit;
+}
+
+img {
+    vertical-align: middle;
+}
+
+ul,
+li,
+ul li,
+ul li ul,
+ul li ul li,
+ul ol {
+    list-style: none;
+    margin-bottom: 0;
+}
+
+ul.list-default {
+    list-style: disc;
+    padding-left: 17px;
+
+    li {
+        list-style: disc;
+    }
+}
+
+ol.list-default {
+    list-style: decimal;
+    padding-left: 17px;
+
+    li {
+        list-style: decimal;
+    }
+}
+
+/* Change Autocomplete styles in Chrome*/
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+    border: none !important;
+    border-bottom: none !important;
+    -webkit-text-fill-color: $black !important;
+    color: $black !important;
+    -webkit-box-shadow: 0 0 0 30px #fff inset !important;
+    box-shadow: 0 0 0 30px #fff inset !important;
+    -webkit-transition: background-color 5000s ease-in-out 0s !important;
+    transition: background-color 5000s ease-in-out 0s !important;
+}

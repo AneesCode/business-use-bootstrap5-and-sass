@@ -1,0 +1,57 @@
+.team{
+    padding: 100px 0;
+    .title-block{
+        @include title-block;
+    }
+    .team-style{
+        text-align: center;
+        position: relative;
+        box-shadow: $shadow-2;
+        border-radius: 8px;
+        overflow: hidden;
+        .team-img{
+            img{
+                width: 100% ;
+            }
+        }
+        .team-content{
+            padding: 20px;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            background-color: var(--white);
+            padding-top: 25px;
+            padding-bottom: 25px;
+            z-index: 5;
+            .social-icon{
+                background-color: var(--white);
+                display: inline-block;
+                padding: 10px 20px 6px;
+                border-radius: 50px;
+                ul{
+               li{
+                   padding: 0 8px;
+               }
+            }
+            }
+            span{
+                color: $primary;
+            }
+            &::before{
+                position: absolute;
+                content: "";
+                width: 100%;
+                height: 100%;
+                top: 0;
+                left: 0;
+                background-color: $primary;
+                z-index: -1;
+                opacity: 0;
+                
+            }
+            
+        }
+       
+    }
+}

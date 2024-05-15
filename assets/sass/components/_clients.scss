@@ -1,0 +1,32 @@
+.clients{
+    padding: 100px 0;
+    background-color: $light-3;
+    .title-block{
+        @include title-block;
+    }
+    .brand-logo{
+display: inline-block;
+text-align: center;
+display: inline-block;
+margin-top: 20px;
+
+    
+    .clients-logo{
+        display: inline-block;
+    margin: 13px 10px;
+    background-color: var(--white);
+    line-height: 100px;
+    padding: 8px 25px;
+    border-radius: 8px;
+    border: 1px solid #eee;
+    transition: all .4s ease-out 0s;
+        img{
+            max-width: 170px;
+        }
+    &:hover{
+        transform: translateY(-5px);
+        box-shadow: 0 10px 30px rgba(0,0,0,.096);
+    }
+    }
+}
+}

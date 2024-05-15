@@ -1,0 +1,90 @@
+.footer {
+    padding: 100px 0;
+
+    .f-about {
+        padding-right: 30px;
+
+        .copyright-text {
+            color: $black;
+
+            a {
+                color: $primary;
+            }
+        }
+    }
+
+    .f-link {
+        h5 {
+            font-weight: 700;
+            margin-bottom: 35px;
+            color: var(--black);
+
+        }
+
+        ul {
+            padding: 0;
+
+            li {
+                margin-bottom: 12px;
+
+                a {
+                    color: $dark-3;
+                }
+            }
+        }
+    }
+
+    .f-newsletter {
+        padding-left: 80px;
+        padding-right: 10px;
+
+        h5 {
+            font-weight: 700;
+            margin-bottom: 35px;
+            color: var(--black);
+        }
+    }
+
+    .made-in {
+        img {
+            width: 220px;
+            position: fixed;
+            left: 5px;
+            bottom: 5px;
+            z-index: 999;
+            transition: all .4s ease;
+
+            &:hover {
+                transform: translateY(-5px);
+            }
+        }
+    }
+    .made-arrow{
+        a{
+            width: 45px;
+    height: 45px;
+    line-height: 45px;
+    background: $primary;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    color: $white;
+    border-radius: 0;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 9;
+    cursor: pointer;
+    transition: all .3s ease-out 0s;
+    border-radius: 5px;
+&:hover{
+    box-shadow: 0 1rem 3rem rgba(35,38,45,.15)!important;
+    transform: translate3d(0,-5px,0);
+    background-color: $dark-1;
+}
+
+        }
+    }
+
+}

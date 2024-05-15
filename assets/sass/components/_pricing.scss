@@ -1,0 +1,82 @@
+.pricing {
+    padding: 100px 0;
+    background-color: $light-3;
+    .title-block {
+        @include title-block;
+        margin-bottom: 30px
+    }
+
+    .pricing-style {
+        border: 1px solid var(--light-1);
+        border-radius: 10px;
+        margin-top: 30px;
+        background-color: var(--white);
+        transition: all .4s ease;
+        padding: 50px 35px;
+        text-align: center;
+        box-shadow: $shadow-3;
+        .pricing-head {
+            @include title-block;
+            margin: 0 auto;
+            h2 {
+                margin-bottom: 40px;
+                font-weight: 600;
+                display: inline-block;
+                position: relative;
+                padding-left: 15px;
+                font-size: 55px;
+                margin: 0;
+
+                .currency {
+                    font-weight: 400;
+                    color: var(--dark-3);
+                    font-size: 20px;
+                    position: absolute;
+                    left: 0;
+                    top: 6px;
+                }
+
+                .duration {
+                    display: inline-block;
+                    font-size: 18px;
+                    color: var(--dark-3);
+                    font-weight: 400;
+                }
+            }
+        }
+
+
+        .pricing-btn {
+            margin-bottom: 40px;
+            .btn {
+                @include btn;
+                border: 1px solid $primary;
+                color: $primary;
+
+                &:hover {
+                    background-color: $primary;
+                    & a{
+                        color: $white;
+                    }
+                }
+            }
+        }
+        .pricing-detail{
+            text-align: left;
+            .list-type{
+                li{
+                list-style-type: disc;
+                a{
+                    position: relative;
+    margin-bottom: 10px;
+    color: $dark-3;
+    text-align: left;
+                }
+            }
+            }
+        }
+        &:hover{
+            box-shadow: $shadow-4;
+        }
+    }
+}

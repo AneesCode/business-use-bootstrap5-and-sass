@@ -1,0 +1,740 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SASS</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="assets/css/theme.css">
+</head>
+
+<body>
+    <div class="header fixed-top">
+        <div class="container">
+            <div class="header-wrapper d-flex align-items-center justify-content-between ">
+                <div class="logo-block">
+                    <img src="assets/images/white-logo.png" alt="">
+                </div>
+                <div class="ul-block">
+                    <ul class="d-flex">
+                        <li><a class="page-scroll" href="#hero">Home</a></li>
+                        <li><a class="page-scroll" href="#services">Services</a></li>
+                        <li><a class="page-scroll" href="#portfolio">Portfolio</a></li>
+                        <li><a class="page-scroll" href="#pricing">Pricing</a></li>
+                        <li><a class="page-scroll" href="#team">Team</a></li>
+                        <li><a class="page-scroll" href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="menu-btn"  data-bs-toggle="offcanvas" data-bs-target="#demo">
+                    <div class="icon1 icon"></div>
+                    <div class="icon2 icon"></div>
+                    <div class="icon3 icon"></div>
+                </div>
+                <div class="offcanvas offcanvas-end" id="demo">
+                    <div class="container">
+                    <div class="offcanvas-header">
+                     <img src="assets/images/logo.png" alt="" class="pt-5">
+                     <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus veritatis quae recusandae beatae cumque.</p>
+                        <h3>Quick Links</h3>
+                        <li><a class="page-scroll" href="#hero">Home</a></li>
+                        <li><a class="page-scroll" href="#services">Services</a></li>
+                        <li><a class="page-scroll" href="#portfolio">Portfolio</a></li>
+                        <li><a class="page-scroll" href="#pricing">Pricing</a></li>
+                        <li><a class="page-scroll" href="#team">Team</a></li>
+                        <h3>Follow Us On</h3>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="hero" id="hero">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 col-md-12 col-12">
+                    <h1 class="text-white">Corporate & Business Site Template By Ayro UI.</h1>
+                    <p class="text-white">We are a digital agency that helps brands to achieve their business outcomes.
+                        We see technology as a tool to create amazing things.</p>
+                    <div class="hero-btn">
+                        <div class="btn">
+                            <a href="#">Get Started</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12 col-12">
+
+                    <div class="hero-img">
+                        <img src="assets/images/hero-image.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="about" id="">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 col-12 text-center">
+                    <svg class="shape" width="106" height="134" viewBox="0 0 106 134" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="1.66654" cy="1.66679" r="1.66667" fill="#DADADA"></circle>
+                        <circle cx="1.66654" cy="16.3335" r="1.66667" fill="#DADADA"></circle>
+                        <circle cx="1.66654" cy="31.0001" r="1.66667" fill="#DADADA"></circle>
+                        <circle cx="1.66654" cy="45.6668" r="1.66667" fill="#DADADA"></circle>
+                        <circle cx="1.66654" cy="60.3335" r="1.66667" fill="#DADADA"></circle>
+                        <circle cx="1.66654" cy="88.6668" r="1.66667" fill="#DADADA"></circle>
+                        <circle cx="1.66654" cy="117.667" r="1.66667" fill="#DADADA"></circle>
+                        <circle cx="1.66654" cy="74.6668" r="1.66667" fill="#DADADA"></circle>
+                        <circle cx="1.66654" cy="103" r="1.66667" fill="#DADADA"></circle>
+                        <circle cx="1.66654" cy="132" r="1.66667" fill="#DADADA"></circle>
+                        <circle cx="16.3333" cy="1.66679" r="1.66667" fill="#DADADA"></circle>
+                        <circle cx="16.3333" cy="16.3335" r="1.66667" fill="#DADADA"></circle>
+                        <circle cx="16.3333" cy="31.0001" r="1.66667" fill="#DADADA"></circle>
+                        <circle cx="16.3333" cy="45.6668" r="1.66667" fill="#DADADA"></circle>
+                        <circle cx="16.333" cy="60.3335" r="1.66667" fill="#DADADA"></circle>
+                        <circle cx="16.333" cy="88.6668" r="1.66667" fill="#DADADA"></circle>
+                        <circle cx="16.333" cy="117.667" r="1.66667" fill="#DADADA"></circle>
+                        <circle cx="16.333" cy="74.6668" r="1.66667" fill="#DADADA"></circle>
+                        <circle cx="16.333" cy="103" r="1.66667" fill="#DADADA"></circle>
+                        <circle cx="16.333" cy="132" r="1.66667" fill="#DADADA"></circle>
+                        <circle cx="30.9998" cy="1.66679" r="1.66667" fill="#DADADA"></circle>
+                        <circle cx="74.6665" cy="1.66679" r="1.66667" fill="#DADADA"></circle>
+                        <circle cx="30.9998" cy="16.3335" r="1.66667" fill="#DADADA"></circle>
+                        <circle cx="74.6665" cy="16.3335" r="1.66667" fill="#DADADA"></circle>
+                        <circle cx="30.9998" cy="31.0001" r="1.66667" fill="#DADADA"></circle>
+                        <circle cx="74.6665" cy="31.0001" r="1.66667" fill="#DADADA"></circle>
+                        <circle cx="30.9998" cy="45.6668" r="1.66667" fill="#DADADA"></circle>
+                        <circle cx="74.6665" cy="45.6668" r="1.66667" fill="#DADADA"></circle>
+                        <circle cx="31" cy="60.3335" r="1.66667" fill="#DADADA"></circle>
+                        <circle cx="74.6668" cy="60.3335" r="1.66667" fill="#DADADA"></circle>
+                        <circle cx="31" cy="88.6668" r="1.66667" fill="#DADADA"></circle>
+                        <circle cx="74.6668" cy="88.6668" r="1.66667" fill="#DADADA"></circle>
+                        <circle cx="31" cy="117.667" r="1.66667" fill="#DADADA"></circle>
+                        <circle cx="74.6668" cy="117.667" r="1.66667" fill="#DADADA"></circle>
+                        <circle cx="31" cy="74.6668" r="1.66667" fill="#DADADA"></circle>
+                        <circle cx="74.6668" cy="74.6668" r="1.66667" fill="#DADADA"></circle>
+                        <circle cx="31" cy="103" r="1.66667" fill="#DADADA"></circle>
+                        <circle cx="74.6668" cy="103" r="1.66667" fill="#DADADA"></circle>
+                        <circle cx="31" cy="132" r="1.66667" fill="#DADADA"></circle>
+                        <circle cx="74.6668" cy="132" r="1.66667" fill="#DADADA"></circle>
+                        <circle cx="45.6665" cy="1.66679" r="1.66667" fill="#DADADA"></circle>
+                        <circle cx="89.3333" cy="1.66679" r="1.66667" fill="#DADADA"></circle>
+                        <circle cx="45.6665" cy="16.3335" r="1.66667" fill="#DADADA"></circle>
+                        <circle cx="89.3333" cy="16.3335" r="1.66667" fill="#DADADA"></circle>
+                        <circle cx="45.6665" cy="31.0001" r="1.66667" fill="#DADADA"></circle>
+                        <circle cx="89.3333" cy="31.0001" r="1.66667" fill="#DADADA"></circle>
+                        <circle cx="45.6665" cy="45.6668" r="1.66667" fill="#DADADA"></circle>
+                        <circle cx="89.3333" cy="45.6668" r="1.66667" fill="#DADADA"></circle>
+                        <circle cx="45.6665" cy="60.3335" r="1.66667" fill="#DADADA"></circle>
+                        <circle cx="89.3333" cy="60.3335" r="1.66667" fill="#DADADA"></circle>
+                        <circle cx="45.6665" cy="88.6668" r="1.66667" fill="#DADADA"></circle>
+                        <circle cx="89.3333" cy="88.6668" r="1.66667" fill="#DADADA"></circle>
+                        <circle cx="45.6665" cy="117.667" r="1.66667" fill="#DADADA"></circle>
+                        <circle cx="89.3333" cy="117.667" r="1.66667" fill="#DADADA"></circle>
+                        <circle cx="45.6665" cy="74.6668" r="1.66667" fill="#DADADA"></circle>
+                        <circle cx="89.3333" cy="74.6668" r="1.66667" fill="#DADADA"></circle>
+                        <circle cx="45.6665" cy="103" r="1.66667" fill="#DADADA"></circle>
+                        <circle cx="89.3333" cy="103" r="1.66667" fill="#DADADA"></circle>
+                        <circle cx="45.6665" cy="132" r="1.66667" fill="#DADADA"></circle>
+                        <circle cx="89.3333" cy="132" r="1.66667" fill="#DADADA"></circle>
+                        <circle cx="60.3333" cy="1.66679" r="1.66667" fill="#DADADA"></circle>
+                        <circle cx="104" cy="1.66679" r="1.66667" fill="#DADADA"></circle>
+                        <circle cx="60.3333" cy="16.3335" r="1.66667" fill="#DADADA"></circle>
+                        <circle cx="104" cy="16.3335" r="1.66667" fill="#DADADA"></circle>
+                        <circle cx="60.3333" cy="31.0001" r="1.66667" fill="#DADADA"></circle>
+                        <circle cx="104" cy="31.0001" r="1.66667" fill="#DADADA"></circle>
+                        <circle cx="60.3333" cy="45.6668" r="1.66667" fill="#DADADA"></circle>
+                        <circle cx="104" cy="45.6668" r="1.66667" fill="#DADADA"></circle>
+                        <circle cx="60.333" cy="60.3335" r="1.66667" fill="#DADADA"></circle>
+                        <circle cx="104" cy="60.3335" r="1.66667" fill="#DADADA"></circle>
+                        <circle cx="60.333" cy="88.6668" r="1.66667" fill="#DADADA"></circle>
+                        <circle cx="104" cy="88.6668" r="1.66667" fill="#DADADA"></circle>
+                        <circle cx="60.333" cy="117.667" r="1.66667" fill="#DADADA"></circle>
+                        <circle cx="104" cy="117.667" r="1.66667" fill="#DADADA"></circle>
+                        <circle cx="60.333" cy="74.6668" r="1.66667" fill="#DADADA"></circle>
+                        <circle cx="104" cy="74.6668" r="1.66667" fill="#DADADA"></circle>
+                        <circle cx="60.333" cy="103" r="1.66667" fill="#DADADA"></circle>
+                        <circle cx="104" cy="103" r="1.66667" fill="#DADADA"></circle>
+                        <circle cx="60.333" cy="132" r="1.66667" fill="#DADADA"></circle>
+                        <circle cx="104" cy="132" r="1.66667" fill="#DADADA"></circle>
+                    </svg>
+                    <img src="assets/images/about-img1.jpg" alt="">
+                </div>
+                <div class="col-lg-6 col-12">
+                    <div class="about-content">
+                        <h6 class="story">OUT STORY</h6>
+                        <h2 class="font-bold">Our team comes with the experience and knowledge</h2>
+                        <ul class="nav nav-pills" role="tablist">
+                            <li class="nav-item">
+                                <a class="nav-link active" data-bs-toggle="pill" href="#home">Who We Are</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-bs-toggle="pill" href="#menu1">Our Vision</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-bs-toggle="pill" href="#menu2">Our History</a>
+                            </li>
+                        </ul>
+                        <div class="tab-content">
+                            <div id="home" class="container tab-pane active"><br>
+                                <h3>HOME</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua.</p>
+                            </div>
+                            <div id="menu1" class="container tab-pane fade"><br>
+                                <h3>Menu 1</h3>
+                                <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+                                    ea commodo consequat.</p>
+                            </div>
+                            <div id="menu2" class="container tab-pane fade"><br>
+                                <h3>Menu 2</h3>
+                                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
+                                    laudantium, totam rem aperiam.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="services" id="services">
+        <div class="container">
+            <div class="title-block">
+                <h6>Services</h6>
+                <h2>Our Best Services</h2>
+                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+                    alteration in some form.</p>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <div class="single-services">
+                        <div class="service-icon">
+                            <i class="fa-solid fa-arrows-rotate"></i>
+                        </div>
+                        <div class="service-content">
+                            <h4>Refreshing Design</h4>
+                            <p>
+                                Lorem ipsum dolor sit amet, adipscing elitr, sed diam nonumy
+                                eirmod tempor ividunt labor dolore magna.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="single-services">
+                        <div class="service-icon">
+                            <i class="fa-solid fa-arrows-rotate"></i>
+                        </div>
+                        <div class="service-content">
+                            <h4>Refreshing Design</h4>
+                            <p>
+                                Lorem ipsum dolor sit amet, adipscing elitr, sed diam nonumy
+                                eirmod tempor ividunt labor dolore magna.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="single-services">
+                        <div class="service-icon">
+                            <i class="fa-solid fa-arrows-rotate"></i>
+                        </div>
+                        <div class="service-content">
+                            <h4>Refreshing Design</h4>
+                            <p>
+                                Lorem ipsum dolor sit amet, adipscing elitr, sed diam nonumy
+                                eirmod tempor ividunt labor dolore magna.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="single-services">
+                        <div class="service-icon">
+                            <i class="fa-solid fa-arrows-rotate"></i>
+                        </div>
+                        <div class="service-content">
+                            <h4>Refreshing Design</h4>
+                            <p>
+                                Lorem ipsum dolor sit amet, adipscing elitr, sed diam nonumy
+                                eirmod tempor ividunt labor dolore magna.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="single-services">
+                        <div class="service-icon">
+                            <i class="fa-solid fa-arrows-rotate"></i>
+                        </div>
+                        <div class="service-content">
+                            <h4>Refreshing Design</h4>
+                            <p>
+                                Lorem ipsum dolor sit amet, adipscing elitr, sed diam nonumy
+                                eirmod tempor ividunt labor dolore magna.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="single-services">
+                        <div class="service-icon">
+                            <i class="fa-solid fa-arrows-rotate"></i>
+                        </div>
+                        <div class="service-content">
+                            <h4>Refreshing Design</h4>
+                            <p>
+                                Lorem ipsum dolor sit amet, adipscing elitr, sed diam nonumy
+                                eirmod tempor ividunt labor dolore magna.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="video">
+        <div class="container">
+            <div class="title-block">
+                <h6>Services</h6>
+                <h2>Our Best Services</h2>
+                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+                    alteration in some form.</p>
+            </div>
+            <div class="video-section">
+                <img src="assets/images/video-bg.png" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="portfolio" id="portfolio">
+        <div class="container">
+            <div class="title-block">
+                <h6>Portfolio</h6>
+                <h2>Our Best Portfolio</h2>
+                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+                    alteration in some form.</p>
+            </div>
+        </div>
+    </div>
+    <div class="pricing" id="pricing">
+        <div class="container">
+            <div class="title-block">
+                <h6>Our pricing</h6>
+                <h2>Pricing & Plans</h2>
+                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+                    alteration in some form.</p>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="pricing-style">
+                        <div class="pricing-head">
+                            <div class="title-block">
+                                <h6>starter</h6>
+                                <div class="pricing-1">
+                                    <p class="pb-3">There are many variations of passages of Lorem of passages of Lorem
+                                    </p>
+                                </div>
+                                <h2><span class="currency">$</span>0 <span class="duration">/mo</span></h2>
+                            </div>
+                        </div>
+                        <div class="pricing-btn">
+                            <div class="btn">
+                                <a href="#">Start Free Trail</a>
+                            </div>
+                        </div>
+                        <div class="pricing-detail">
+                            <ul class="list-type">
+                                <li><a href="#"> Cras justo odio.</a></li>
+                                <li><a href="#">Dapibus ac facilisis in.</a></li>
+                                <li><a href="#">Morbi leo risus.</a></li>
+                                <li><a href="#">Excepteur sint occaecat velit.</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="pricing-style">
+                        <div class="pricing-head">
+                            <div class="title-block">
+                                <h6>starter</h6>
+                                <div class="pricing-1">
+                                    <p class="pb-3">There are many variations of passages of Lorem of passages of Lorem
+                                    </p>
+                                </div>
+                                <h2><span class="currency">$</span>0 <span class="duration">/mo</span></h2>
+                            </div>
+                        </div>
+                        <div class="pricing-btn">
+                            <div class="btn">
+                                <a href="#">Start Free Trail</a>
+                            </div>
+                        </div>
+                        <div class="pricing-detail">
+                            <ul class="list-type">
+                                <li><a href="#"> Cras justo odio.</a></li>
+                                <li><a href="#">Dapibus ac facilisis in.</a></li>
+                                <li><a href="#">Morbi leo risus.</a></li>
+                                <li><a href="#">Excepteur sint occaecat velit.</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="pricing-style">
+                        <div class="pricing-head">
+                            <div class="title-block">
+                                <h6>starter</h6>
+                                <div class="pricing-1">
+                                    <p class="pb-3">There are many variations of passages of Lorem of passages of Lorem
+                                    </p>
+                                </div>
+                                <h2><span class="currency">$</span>0 <span class="duration">/mo</span></h2>
+                            </div>
+                        </div>
+                        <div class="pricing-btn">
+                            <div class="btn">
+                                <a href="#">Start Free Trail</a>
+                            </div>
+                        </div>
+                        <div class="pricing-detail">
+                            <ul class="list-type">
+                                <li><a href="#"> Cras justo odio.</a></li>
+                                <li><a href="#">Dapibus ac facilisis in.</a></li>
+                                <li><a href="#">Morbi leo risus.</a></li>
+                                <li><a href="#">Excepteur sint occaecat velit.</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="team" id="team">
+        <div class="container">
+            <div class="title-block">
+                <h6>Our pricing</h6>
+                <h2>Pricing & Plans</h2>
+                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+                    alteration in some form.</p>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-12">
+                    <div class="team-style">
+                        <div class="team-img">
+                            <img src="assets/images/team-1.jpg" alt="">
+                        </div>
+                        <div class="team-content">
+                            <div class="social-icon">
+                                <ul class="socail d-flex m-0 p-0 justify-content-center">
+                                    <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                                    <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                                    <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fa-brands fa-whatsapp"></i></a></li>
+                                </ul>
+                            </div>
+                            <h4 class="team-name">Jeffery Riley</h4>
+                            <span class="sub-title">Art Director</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-12">
+                    <div class="team-style">
+                        <div class="team-img">
+                            <img src="assets/images/team-2.jpg" alt="">
+                        </div>
+                        <div class="team-content">
+                            <div class="social-icon">
+                                <ul class="socail d-flex m-0 p-0 justify-content-center">
+                                    <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                                    <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                                    <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fa-brands fa-whatsapp"></i></a></li>
+                                </ul>
+                            </div>
+                            <h4 class="team-name">Jeffery Riley</h4>
+                            <span class="sub-title">Art Director</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-12">
+                    <div class="team-style">
+                        <div class="team-img">
+                            <img src="assets/images/team-3.jpg" alt="">
+                        </div>
+                        <div class="team-content">
+                            <div class="social-icon">
+                                <ul class="socail d-flex m-0 p-0 justify-content-center">
+                                    <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                                    <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                                    <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fa-brands fa-whatsapp"></i></a></li>
+                                </ul>
+                            </div>
+                            <h4 class="team-name">Jeffery Riley</h4>
+                            <span class="sub-title">Art Director</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="start">
+        <div class="inner-content">
+            <h2>ve to make perfect
+                solutions for your business</h2>
+            <p>Why I say old chap that is, spiffing off his nut cor blimey guvnords geeza
+                bloke knees up bobby, sloshed arse William cack Richard. Bloke fanny around chesed of bum bag old lost
+                the pilot say there spiffing off his nut.</p>
+            <div class="btn">
+                <a href="#">Get Started</a>
+            </div>
+        </div>
+    </div>
+    <div class="testimonial">
+        <div class="container">
+            <div class="title-block">
+                <h6>Testimonial</h6>
+                <h2>Our Testimonial</h2>
+                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+                    alteration in some form.</p>
+            </div>
+        </div>
+    </div>
+    <div class="blog">
+        <div class="container">
+            <div class="title-block">
+                <h6>Blog</h6>
+                <h2>Latest News & Blog</h2>
+                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+                    alteration in some form.</p>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-sm-6 col-12">
+                    <div class="news">
+                        <div class="new-img"><img src="assets/images/1.jpg" alt=""></div>
+                        <div class="content-blog">
+                            <h4 class="my-4">Make your team a Design driven company</h4>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                                has been the industry's standard.</p>
+                        </div>
+                    </div>
+                    .
+                </div>
+                <div class="col-lg-4 col-sm-6 col-12">
+                    <div class="news">
+                        <div class="new-img"><img src="assets/images/1.jpg" alt=""></div>
+                        <div class="content-blog">
+                            <h4 class="my-4">Make your team a Design driven company</h4>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                                has been the industry's standard.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 col-12">
+                    <div class="news">
+                        <div class="new-img"><img src="assets/images/1.jpg" alt=""></div>
+                        <div class="content-blog">
+                            <h4 class="my-4">Make your team a Design driven company</h4>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                                has been the industry's standard.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="clients">
+        <div class="container">
+            <div class="title-block">
+                <h6>Services</h6>
+                <h2>Our Best Services</h2>
+                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+                    alteration in some form.</p>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 col-12  offset-lg-2 ">
+                    <div class="brand-logo d-flex flex-wrap justify-content-center">
+                        <div class="clients-logo"><img src="assets/images/graygrids.png" alt=""></div>
+                        <div class="clients-logo"><img src="assets/images/uideck.png" alt=""></div>
+                        <div class="clients-logo"><img src="assets/images/ayroui.png" alt=""></div>
+                        <div class="clients-logo"><img src="assets/images/lineicons.png" alt=""></div>
+                        <div class="clients-logo"><img src="assets/images/tailwindtemplates.png" alt=""></div>
+                        <div class="clients-logo"><img src="assets/images/ecomhtml.png" alt=""></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-4">
+                    <div class="contact-item-wrapper">
+                        <div class="row">
+                            <div class="col-12 col-md-6 col-xl-12">
+                                <div class="contact-item">
+                                    <div class="contact-icon">
+                                        <i class="fa-solid fa-location-dot"></i>
+                                    </div>
+                                    <div class="contact-content">
+                                        <h4>Contact</h4>
+                                        <p>0984537278623</p>
+                                        <p>yourmail@gmail.com</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-xl-12">
+                                <div class="contact-item">
+                                    <div class="contact-icon">
+                                        <i class="fa-solid fa-location-dot"></i>
+                                    </div>
+                                    <div class="contact-content">
+                                        <h4>Contact</h4>
+                                        <p>0984537278623</p>
+                                        <p>yourmail@gmail.com</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-xl-12">
+                                <div class="contact-item">
+                                    <div class="contact-icon">
+                                        <i class="fa-solid fa-location-dot"></i>
+                                    </div>
+                                    <div class="contact-content">
+                                        <h4>Contact</h4>
+                                        <p>0984537278623</p>
+                                        <p>yourmail@gmail.com</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-8">
+                    <div class="contact-form-wrapper">
+                        <div class="row">
+                            <div class="col-xl-10 col-lg-8 mx-auto">
+                                <div class="section-title text-center">
+                                    <span> Get in Touch </span>
+                                    <h2>
+                                        Ready to Get Started
+                                    </h2>
+                                    <p>
+                                        At vero eos et accusamus et iusto odio dignissimos ducimus
+                                        quiblanditiis praesentium
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <form action="#" class="contact-form">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <input type="text" name="name" id="name" placeholder="Name" required="">
+                                </div>
+                                <div class="col-md-6">
+                                    <input type="email" name="email" id="email" placeholder="Email" required="">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <input type="text" name="phone" id="phone" placeholder="Phone" required="">
+                                </div>
+                                <div class="col-md-6">
+                                    <input type="text" name="subject" id="email" placeholder="Subject" required="">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12">
+                                    <textarea name="message" id="message" placeholder="Type Message" rows="5"
+                                        style="height: 59px;"></textarea>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="button text-center rounded-buttons">
+                                        <button type="submit" class="btn primary-btn rounded-full">
+                                            Send Message
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="map">
+        <div class="single-map">
+            <object style="border:0; height: 500px; width: 100%;" data="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3102.7887109309127!2d-77.44196278417968!3d38.95165507956235!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzjCsDU3JzA2LjAiTiA3N8KwMjYnMjMuMiJX!5e0!3m2!1sen!2sbd!4v1545420879707"></object>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="container">
+            <div class="inner-content">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="f-about">
+                            <div class="logo-block">
+                                <a href="#"><img src="assets/images/logo.png" alt=""></a>
+                            </div>
+                            <p class="mt-4">Making the world a better place through constructing elegant hierarchies.
+                            </p>
+                            <p class="mt-5  copyright-text">© 2024 Ayro UI. <br>
+                                Designed and Developed by <a href="">Ayro UI</a></p>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-6 col-12">
+                        <div class="f-link">
+                            <h5>Solutions</h5>
+                            <ul>
+                                <li><a href="#">Marketing</a></li>
+                                <li><a href="#">Analytics</a></li>
+                                <li><a href="#">Commerce</a></li>
+                                <li><a href="#">Insights</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-6 col-12">
+                        <div class="f-link">
+                            <h5>Suppots</h5>
+                            <ul>
+                                <li><a href="#">Pricing</a></li>
+                                <li><a href="#">Documentation</a></li>
+                                <li><a href="#">Guides</a></li>
+                                <li><a href="#">API status</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="f-newsletter">
+                            <h5>Subscribe</h5>
+                            <p>Subscribe to our newsletter for the latest updates</p>
+                            <form action="">
+                                <input type="email" placeholder="Email address">
+                                <div class="button-">
+                                    <button class="sub-btn">
+                                        <i class="fa-solid fa-envelope"></i>
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="made-in"><a href="#"><img src="assets/images/ayroui (1).png" alt=""></a></div>
+        <div class="made-arrow scroll-top"><a href="#"><i class="fa-solid fa-arrow-up"></i></a></div>
+    </div>
+   
+</body>
+
+</html>

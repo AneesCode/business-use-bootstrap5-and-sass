@@ -1,0 +1,44 @@
+// Fonts
+@import 'base/fonts';
+
+// Utilities
+@import 'utilities/variables';
+@import 'utilities/flexbox';
+@import 'utilities/mixins';
+@import 'utilities/breakpoints';
+
+// Vendors
+@import 'vendors/bootstrap';
+@import 'vendors/fontawesome/fontawesome';
+@import 'vendors/flickity';
+// @import 'vendors/bootstrap-select';
+// @import 'vendors/magnific-popup';
+
+// Base
+@import 'base/reset';
+@import 'base/generic';
+@import 'base/typography';
+@import 'base/form';
+
+// Layout
+
+@import 'layout/header';
+@import 'layout/footer';
+
+// Components
+@import 'components/hero';
+@import 'components/cards';
+@import 'components/about';
+@import 'components/services';
+@import 'components/video';
+@import 'components/start';
+@import 'components/portfolio';
+@import 'components/pricing';
+@import 'components/team';
+@import 'components/clients';
+@import 'components/testimonial';
+@import 'components/blog';
+@import 'components/contact';
+@import 'components/map';
+
+

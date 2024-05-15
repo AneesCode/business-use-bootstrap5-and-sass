@@ -1,0 +1,29 @@
+.start{
+    padding: 100px 0;
+    background-color: $primary-dark;
+    .inner-content{
+        text-align: center;
+        width: 100%;
+        max-width: 50%;
+        margin: 0 auto;
+    h2{
+        font-weight: 700;
+    margin-bottom: 30px;
+    color: $white;
+    }
+    p{
+        color: $white;
+    }
+    .btn{
+        @include btn;
+        margin-top: 30px;
+        background-color: $primary-dark;
+        color: $white;
+        border: 1px solid $white;
+    &:hover{
+        color: $primary-dark;
+        background-color: $white;
+    }
+    }
+}
+}

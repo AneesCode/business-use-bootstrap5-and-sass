@@ -1,0 +1,75 @@
+.contact{
+    .contact-item-wrapper{
+        .contact-item{
+            display: flex;
+            border: 1px solid $gray-4;
+            border-radius: 10px;
+            background: $white;
+            margin-bottom: 30px;
+            padding: 20px 30px;
+            &:hover{
+                box-shadow: $shadow-4;
+            }
+        }
+            .contact-icon{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size: 22px;
+                width: 50px;
+                height: 50px;
+                border-radius: 50%;
+                background: $primary;
+                color: $white;
+            }
+            .contact-content{
+                margin-left: 25px;
+                h4{
+                    font-size: 20px;
+                    color: $primary;
+                    margin-bottom: 10px;
+                
+                }
+            }
+        }
+        .contact-form-wrapper{
+            padding: 50px 40px;
+            background: $white;
+            border: 1px solid $gray-4;
+            margin-left: 0;
+            border-radius: 10px;
+            transition: all .3s ease-out 0s;
+        .section-title {
+            margin-bottom: 30px;
+            span{
+                font-size: 20px;
+    color: $primary;
+    font-weight: 700;
+            }
+        }
+        form{
+            input{
+                padding: 15px 25px;
+                border-radius: 30px;
+                border: 1px solid $gray-4;
+                margin-bottom: 25px;
+                width: 100%;
+                transition: all .3s ease-out 0s;
+            }
+            textarea{
+            @extend input
+            }
+        }
+        .primary-btn {
+            background-color: $primary;
+            color: $white;
+            box-shadow: $shadow-2;
+            border-radius: 50px;
+            font-weight: 700;
+            padding: 12px 24px;
+        }
+        &:hover{
+            box-shadow: $shadow-4;
+        }
+        }
+    }
